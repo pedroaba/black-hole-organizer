@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "boo"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Augusto. <pedr.augustobarbosa.aparecido@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+result = "^0.17.0"
+tqdm = "^4.67.1"
+loguru = "^0.7.2"
+loguru-mypy = "^0.0.4"
+appdata = "^2.2.1"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
